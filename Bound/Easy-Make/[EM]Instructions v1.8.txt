@@ -1,0 +1,174 @@
+-----------------------------------
+--v1.8º---------------------------
+-----------------------------------
+
+[]= Triggers/Objects used for this.
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+--ºUnits Labeled-------------------
+Zerg Hydralisk		¥Banner
+Zerg Zergling		¥Bounder
+Zerg Devourer		¥Suck Up :F
+Zerg Scourge		¥ºExplosion1
+Terran Wraith		¥ºExplosion2
+Zerg Guardian		¥ºExplosion3
+Terran Battlecruiser	¥ºExplosion4
+Protoss Archon		¥Blowable
+Protoss Templar		¥Wall
+Protoss Zealot		¥Key-Switch
+Hero: Protoss Archon	¥Unlockable
+Hero: Zerg Zergling	¥Give Life[+1]
+etc.. Protoss		¥Obstacle
+
+	•All the units whos name starts with a º are not to be used on this map.
+-----------------------------------
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+--ºObstacles-----------------------
+	•P8 Units are to be used
+	•Any ºPlayer to run into one dies.
+-----------------------------------
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+--ºPlayers-------------------------
+	•"Zerg Zerglings" must be used for the ºPlayers units (The Bounders), you will not have to create any Bounder units for the ºPlayers, just let the triggers take over for that and make sure you have a Level 1 location clear for them to go too (duh). If you DO decide to place the Bounder units to begin with on the map, the lives will not -1 when totaled in the beginning (Check IMPORTANT column at the end of this instructions document for more details about -1 lives).
+	•If you choose any other unit the location (trigger) size will be too small and you must either fix it, or JUST DON'T PICK A DIFFEREN'T UNIT! Plus other triggers in the map will need to be modified [edited], so just don't go there unless you are an editor.
+	•For banning area, please use the "Hero: Zerg Zergling" unit and the "Zerg Hydralisk" unit. You WILL have to create these units, triggers will not take over for that.
+-----------------------------------
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+--ºTriggers(Editable)--------------
+	•Level1, Level2, etc: This is the process in which the ºPlayers get through the ºObstacles and continue on toward their next bound. [Vulture Spide Mine]
+
+	•Ban P1, Ban P2, etc: A very good banning function that if there are 2 ºPlayers playing total, no-one can get banned, if there are 3 ºPlayers playing, it just takes 2 ºPlayers to ban someone, if there are 4 or more ºPlayers playing, it take 3 ºPlayers to ban someone. Simplified like this:
+1= Can't, 2= Can't, 3= Need 2, 4+= Need 3. [WARNING: LET THE CURRENT ºPLAYER KNOW WHO HE OR SHE IS BANNING BY PLACING A FLAG OF THAT COLOR NEAR THE LOCATION]
+
+	•GiveLifeP1, etc: Should be found on the Ban P1 locations. This part of this location needs Hero: Zerg Zerglings to make use of it. Since this part of the location is attached to the banning locations there is no need to make a new area for this part. Just make that Hero ling, and now they will be able to ban on that spot and give lives to that player.
+
+	•Highlight me over the banning area: You need to highlight this over the banning area... If not, the banning won't work right. (Make sure to have 1 "Hero: Zerg Zergling" and 1 "Zerg Hydralisk" per ºPlayer at the banning area too, or else it won't work right.) [WARNING: If you do not need this location because your too lazy to make a banning area, keep it on the map because it is needed for a function to work right. Place it somewhere where it doesn't inflict with the ºPlayers game-play.]
+
+	•3 Crystals: The top one is gains the ºPlayers 1 life, the middle one 2 lives, and the bottom one 3 lives. Copy and paste them on the field anywhere you would like. All the ºPlayers have to do is walk up to them and they get that many lives. (The whole team does.)
+
+	•1(1), 2(1): This makes an obstacle move, going back and forth between these two locations.
+
+	•1(11), 2(11), 3(11): This is a bigger cycle of moving an ºObstacle. First it goes to 1(..), then to 2(..), then to 3(..), then to 4(..), then back to 1(..).
+
+	•A(1), B(1), C(1): This makes an obstacle move. Only 1 unit is allowed on this track system. Instead of making a loop, this makes an Obstacle go from A, to B, to C, to B, then to A again. It's a back and forth track system, and not a circle track system like the last two were [1(11), 2(11), 3(11)].
+
+	•Door1, etc & Trig1, etc: Place the Trig location over a Zealot (Key-Switch) owned by the ºObstacles, and a Door location over a Hero: Protoss Archon (Unlockable) owned by the ºObstacles. When the ºPlayers come up to the Key-Switch unit it will kill the Unlockable unit and therefor, letting the ºPlayers through that area.
+
+	•o, x: The o represents the area from which a ºPlayer will get sucked into the x. x usually causes a death when you reach it. To cause a death and let the ºPlayers KNOW that they will be getting sucked up and having a death is to use a unit named Suck Up :F. The more ^ the trigger has the more powerful suck up time. Here is a chart to let you know how fast it will suck up things (estimated):
+O^= 200 milliseconds (0.2 seconds)
+o^ ^ ^= 300 milliseconds (0.3 seconds)
+o^ ^= 750 milliseconds (0.75 seconds)
+o^= 1500 milliseonds (1.5 second)  [These are all estimates and are probably all wrong, this is just to give you an idea of their speed]
+
+	•Wall, etc & Trig1-2, Trig2-2 etc: Once a ºPlayer arrives at a Trig1-2 location, it will blow up where the wall is located (highlighted) on top of the wall1. The ºPlayers can burrow and use team work to push each other over the wall so it is possible for the ºPlayers to get over it. Wise idea to put the Trig1-2 right after the wall so it blows up immediatley after jumping over it.
+
+	•e*, e* *, e* * *, E *: The e stands for Explosions. These triggers can be turned on in the Trigger Editor (Read the IMPORTANT at the bottom on how to get there). These triggers make an explosion in there location. Everytime that explosion goes off, it kills all ºPlayers inside that location. Here is a list of their speeds (estimated):
+e*= 1000 milliseconds (1 second)
+e* *= 1700 milliseconds (1.7 seconds)
+e* * *= 2400 milliseconds (2.4 seconds)
+E *= 3000 milliseconds (3 seconds)  
+[These are all estimates and are probably all wrong, this is just to give you an idea of their speed]
+
+There are also differen't units on each location so adjust size accordingly:
+e*= ºExplosion1
+e* *= ºExplosion2
+e* * *= ºExplosion3
+E*= ºExplosion4
+[To know which size is what look at the "Units Labled" column at the top of this instructions document. Look at unit sizes while editing]
+
+	•Created By: Place this location over a P8 Flag (ºObstacles) in the Banning Area. This location tells other people where to get my map if they want a fresh copy.
+-----------------------------------
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+--ºTriggers(Non-Editable)----------
+	•P1,P2, etc: Centers location on that current ºPlayers so you know the boundries in which they die.
+	•Vulture Spider Mine: Centers location on the Vulture Spider Mine so that the ºPlayers will respawn on top of it. (The mine gets sent to the Level1, Level2, etc. locations.
+	•P1 Killer, etc: Just a random idea i had in my head when making this. Have the players run to there next level killing all "Blowable" ºObstacles and "Lives[+..]" Crystals.
+	•TrigDoorP1, etc: This location is made to follow the bounders. It leaves a little extra slack then the location labeled P1, P2, etc. so that when the ºPlayers go up to a Key-Switch they will not die.
+-----------------------------------
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+--ºTrigger Editing----------------- IMPORTANT: READ ME! -----
+	•This map was meant to have NO trigger editing, however, i pondered on the lives and figured the easiest way for it to work is if you do trigger editing. Don't freak out, it's very easy. Go to the trigger editor(Press Alt+T then press Enter), click Force1, and click the one that says Start Out Lives [Edit Me!]. It should say,
+Modify Death counts for Force1: Set to 0 for ºLives. Double click that sentence. Then change that 0 to how many lives you will start out with. Be aware, if you do not place any Bound units on the map, the lives you set it too will decrease by 1 in-game. So if you set it to 4, it will go to 3. Just be prepared for that, it'd be more professional if you just didn't place any Bounder units in the beginning of the game.
+
+	•Created By: is another trigger you need to edit. Go to the trigger editor(Press Alt+T then press Enter), click Force1, and click the one that says Created By: [Edit Me!], then Double click the "Display for current player" trigger and insert your name where it says (Insert name here).
+
+	•If you've noticed, there is a third [Edit Me!] trigger. You can turn the Explosions On/Off with Switch 1. Once you have confirmed that you want explosions with Switch 1 (You turned it on), there will be other switchs below that. Double click the :::::List is Here::::: Comment and this will allow you to see which Switchs turn On/Off what. Once switchs are turned on, be aware that there will be explosions going off on the [e*, e* *, etc..] locations and it will cause problems if they stay close together. Spread them out. There are differen't sizes too (For more details about size, go to the actual trigger name [e*, e* *, etc..]. Find it under the Triggers(Editable) column).
+-----------------------------------
+
+
+||
+||
+||
+||
+||
+||
+||
+
+
+
+•_•    º_ºOpen.14º_º    •_•

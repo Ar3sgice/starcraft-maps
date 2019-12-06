@@ -1,0 +1,66 @@
+-----------------------------------
+--v1.3-----------------------------
+-----------------------------------
+
+[]= Triggers/Objects used for this.
+
+--ºUnits Labeled-------------------
+Zerg Hydralisk		¥Banner
+Zerg Zergling		¥Bounder
+Protoss Archon		¥Blowable
+Protoss Templar		¥Wall
+Protoss Zealot		¥Key-Switch
+Hero: Protoss Archon	¥Unlockable
+Hero: Zerg Zergling	¥Give Life[+1]
+etc.. Protoss		¥Obstacle
+-----------------------------------
+
+
+--ºObstacles-----------------------
+	•P8 Units are to be used
+	•Any ºPlayer to run into one dies.
+-----------------------------------
+
+
+
+--ºPlayers-------------------------
+	•Zerglings MUST be used for the ºPlayers units (The Bounders).
+	•If you choose any other unit the location (trigger) size will be to small and you must either fix it, or JUST DON'T PICK A DIFFEREN'T UNIT! Plus other triggers in the map will need to be modified [edited], so just don't go there unless you are an editor.
+	•For banning people, make a total differen't section on the map and use HYDRAS.
+-----------------------------------
+
+
+
+--ºTriggers(Editable)--------------
+	•Level1, Level2: This is the process in which the ºPlayers get through the ºObstacles and continue on toward their next bound. [Vulture Spide Mine]
+	•Ban P1, Ban P2, etc: A very good banning function that if there are 2 ºPlayers playing total, no-one can get banned, if there are 3 ºPlayers playing, it just takes 2 ºPlayers to ban someone, if there are 4 or more ºPlayers playing, it take 3 ºPlayers to ban someone. Simplified like this:
+1= Can't, 2= Can't, 3= Need 2, 4+= Need 3. [WARNING: LET THE CURRENT ºPLAYER KNOW WHO HE OR SHE IS BANNING BY PLACING A FLAG OF THAT COLOR NEAR THE LOCATION]
+	•GiveLifeP1, etc: Should be found on the Ban P1 locations. This part of this location needs Hero: Zerg Zerglings to make use of it. Since this part of the location is attached to the banning locations there is no need to make a new area for this part. Just make that Hero ling, and now they will be able to ban on that spot and give lives to that player.
+	•Highlight me over the banning area: You need to highlight this over the banning area... If not, the banning won't work right. (Make sure to have only 1 unit per ºPlayer at the banning area too, or else it won't work right.)
+	•3 Crystals: The top one is gains the ºPlayers 1 life, the middle one 2 lives, and the bottom one 3 lives. Copy and paste them on the field anywhere you would like. All the ºPlayers have to do is walk up to them and they get that many lives. (The whole team does.)
+	•1(1), 2(1): This makes an obstacle move, going back and forth between these two locations.
+	•1(11), 2(11), 3(11): This is a bigger cycle of moving an ºObstacle. First it goes to 2(..), then to 3(..), then to 4(..), etc. After it reachs the end, it heads from the last location to the first one and starts over again.
+	•Door1, etc & Trig1, etc: Place the Trig location over a Zealot (Key-Switch) owned by the ºObstacles, and a Door location over a Hero: Protoss Archon (Unlockable) owned by the ºObstacles. When the ºPlayers come up to the Key-Switch unit it will kill the Unlockable unit and therefor, letting the ºPlayers through that area.
+-----------------------------------
+
+
+
+--ºTriggers(Non-Editable)----------
+	•P1,P2, etc: Centers location on that current ºPlayers so you know the boundries in which they die.
+	•Vulture Spider Mine: Centers location on the Vulture Spider Mine so that the ºPlayers will respawn on top of it. (The mine gets sent to the Level1, Level2, etc. locations.
+	•P1 Killer, etc: Just a random idea i had in my head when making this. Have the players run to there next level killing all "Blowable" ºObstacles and "Lives[+..]" Crystals.
+	•TrigDoorP1, etc: This location is made to follow the bounders. It leaves a little extra slack then the location labeled P1, P2, etc. so that when the ºPlayers go up to a Key-Switch they will not die.
+-----------------------------------
+
+
+
+--ºTrigger Editing----------------- IMPORTANT: READ ME! -----
+	•This map was meant to have NO trigger editing, however, i pondered on the lives and figured the easiest way for it to work is if you do trigger editing. Don't freak out, it's very easy. Go to the trigger editor, click Force1, and click the one that say Edit Me! in brackets. It should say,
+Modify Death counts for Force1: Set to 0 for ºLives. Double click that sentence. Then change that 0 to how many lives you will start out with. Easy right?
+-----------------------------------
+
+
+				-Open.14
+
+
+You now have a map that makes Bounds. All the official triggers have been made for you. It comes with instructions too! Open your editor and look at this map. [Called: Open.14's Easy-Make [Bound]]

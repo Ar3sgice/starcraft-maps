@@ -1,0 +1,49 @@
+
+                                                                               Quest for Peace - Campaign
+
+
+   This 4 level campaign was meant and made for our common enjoyment (it gave me lots of fun doing and playing / testing it. Cross across 
+the Koprulu Sector and half of the known galaxy in this quest for peace between the 3 races. Most of the levels require Star Craft - Brood War, 
+especially since the 1st level (Quest 1 - Aiur's Struggle). 
+
+   Altough this is my first campaign, it came to birth in strange sort of way. I've already made 3 levels (the 1st, 2nd and the 4th) apart from each 
+others, began the 3rd and then decided to intangle them together into a campaign. This was the most dificult part of 'em all... 'cause I had to 
+change all maps briefings to match the story. I've merged briefeng from some of the maps (don't ask me wich!) to compile the main story, 
+so don't be surprised if you catch some bloopers in briefings. By far, briefings are the most time consuming thing and worst for me in the 
+StarCraft map editor. 
+
+   In the 1st map (Aiur's Struggle), you're headed to Aiur to destroy an Overmind rebirth when doing a favour to a certain devious creature we all 
+know and love to be the usual vilain. Along the way you may get some help to it... 
+
+   At level 2 (Ice Cappades) you're going to Sloth, an Icy world, to help a Protoss campsite and put an end to the Terran rogues (Freeezer 
+Commandos) and all their possible allies there! 
+
+   On the 3rd level (Moonlight Dunes) you return to Shakuras to find it ravaged by Zerg and an excepcionally bloodlust Protoss Task force. It's your 
+job to clean the house. 
+
+   In the last level, the 4th (Scavenger Hunt), the "Queen of Blades" and her forces are headed to Curies in chase of the U.E.D. and the Furinax 
+Conclave (part of the Avalon Conclave's troops) due to all past griefs caused by them! And have a few close encounters with the locals...
+
+  In these few levels you're facing more than one race at the same time. Sometimes their're allied and the rest at each others throats also... 
+Beyond at your own of course! You'll also have the same chances, don't worry it's sort of an even match... 
+ 
+  Watch out, not everything that moves is your enemy... take a piece of advice if you want to, and use the Shit + Tab... wisely! I almost 
+can bet than you don't want to engage your own allies...
+
+   I ask you not to corrupt the levels. If you want to work them out, please do a copy first and then tinker on it. Do not place these levels for sale, 
+they weren't made with that purpose in mind!
+
+
+P.S. - All levels are playable with mellee and free for all modes. It was a little somehow dificult trying to do the triggers and keep those darn maps
+ still playable in all modes, but... I think it was worth it!
+
+
+                                                                                 Yours truely,
+                                                                                                    HAndyMan
+
+
+Note:  Being a perfeccionist myself (defect or ability, is up for you to discover), I've tested those levels over and over 'till all the "bugs" on 
+        'em where solved, to the best... of my knowledge! If you find any anyway, tell me about it at: 
+                                                                                                                                             quark_moon@yahoo.co.uk
+
+          Oh, and I'm open to suggestions on how to solve it (or them)... Please sent those to me!

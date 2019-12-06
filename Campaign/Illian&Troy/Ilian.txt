@@ -1,0 +1,65 @@
+================================================================
+Title		: The Retaking of Ilian
+Filename	: (1)Ilian??.scm
+Version		: 1.0
+Single Player	: yes
+Multiplayer	: No
+Author 		: David McLean
+Email Address	: david@solus.globalnet.co.uk
+
+Description 	: Sequel to 'Battle for New Troy'.  Battle with the Zerg amomgst
+		  the orbital defences of the planet Ilian, only to face an even
+		  greater threat from the Protoss.
+================================================================
+
+* Play Instructions and Installation *
+
+Unzip into the .....\Starcraft\maps\. To play, select Single Player, Play Custom and 
+select "(1)Ilian1.scm". Select "Use Map Settings" then click on Ok.
+
+* Play Information *
+
+Mission type		: Single Player Campaign
+Difficulty rating	: medium
+New WAVs		: No
+New Cutscenes		: No
+
+* Additional Info *
+
+This campaign contains eleven maps.  There are four possible paths through the 
+campaign as shown below-
+1-2-3-4-5-6a-7a
+1-2-3-4-5-6a-7b-8
+1-2-3-4-5-6b-7b-8
+1-2-3-4-5-6c
+a is when you ally with the Zerg, b with the Protoss.
+
+* Construction *
+
+Base			: New level from scratch
+Editor(s) used		: Starcraft Campaign Editor
+Known Bugs		:
+
+* Copyright / Permissions *
+
+You MAY distribute this level, provided you include this file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file 
+intact and do not sell it.
+
+* Where to get this level *
+
+Scum Runners
+http://scumrunners.adsnet.com/
+
+Chanodin's 3D Shooter, RTS, RPG Source
+http://chanodin.crazy.net
+
+* Legal Stuff *
+
+YOU SHOULD CAREFULLY READ THE END USER LICENSE AGREEMENT BEFORE TRANSFERING OR USING THIS
+EDITED SOFTWARE. BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE PROGRAM, YOU
+AGREE TO BE BOUND BY THE TERMS OF THE AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THE
+AGREEMENT, PROMPTLY DELETE THE UNUSED SOFTWARE FROM YOUR COMPUTER.
+
+
