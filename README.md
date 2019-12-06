@@ -1,3 +1,5 @@
 # starcraft-maps
 
-I'm sure no one notices this account... in fact I almost forgot it as well lol
+Starcraft maps pack 2GB/14,554 files
+
+Some maps in starcraft-1GB might be duplicates, it's another map pack provided by wangli (I think)
